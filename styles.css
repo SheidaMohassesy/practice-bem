@@ -1,0 +1,55 @@
+body, html {
+  margin: 0;
+  height: 100vh;
+}
+
+body {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  background-color: antiquewhite;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+  padding: 0 5em;
+}
+.card__img {
+  display: block;
+  height: 100px;
+  width: 100%;
+  background-color: rgb(233, 170, 200);
+}
+.card__content {
+  padding: 1.5em;
+  background: white;
+}
+.card__list {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.card__item {
+  padding: 0.3em 0.5em;
+  margin-right: 0.5em;
+  background: rgb(212, 211, 211);
+  border-radius: 0.3em;
+  font-size: 0.85em;
+}
+.card__item--active {
+  background: #d4d4d4;
+  font-weight: bold;
+}
+.card__link {
+  background: teal;
+  color: white;
+  text-decoration: none;
+  border-radius: 0.5em;
+  padding: 0.5em;
+  display: inline-block;
+  margin-top: 0.5em;
+}
+.card__link:hover {
+  background-color: rgb(2, 158, 158);
+}/*# sourceMappingURL=styles.css.map */
